@@ -1,0 +1,51 @@
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-around;
+  border: 1px solid #ddd;
+  padding: 10px;
+  
+}
+  
+
+.book-list img {
+  max-width: 100%;
+  margin-bottom: 10px; 
+}
+
+.book-list h2 {
+  font-size: 1.2rem;
+  margin: 0;
+  color: red;
+}
+
+.book-list p {
+  margin: 5px 0;
+  text-decoration: double;
+}
+
+.add-to-cart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.stock-counter {
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+
+.book-list img:hover {
+  box-shadow: 0 0 10px rgb(204, 204, 204);
+  background-color: #fff;
+}
